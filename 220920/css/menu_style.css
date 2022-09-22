@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* 속성 초기화 */
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 배경 설정 */
+#menu{
+    background: yellow;
+    height: 50px;
+}
+
+/* 메인메뉴 박스 총 크기 및 여백 설정 */
+#menu ul{
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* 메인메뉴 박스 정렬 및 박스 스타일 설정 */
+#menu .main > li {
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: lightgreen;
+    position: relative;
+}
+
+/* 메인메뉴에 마우스 올렸을 때 서브메뉴 보이게 설정 */
+#menu .main > li:hover .sub {
+    display: block;
+}
+
+/* 서브메뉴 링크 블록화 */
+#menu .main > li a{
+    display: block;
+}
+
+/* 메인메뉴에 마우스 올렸을 때 색상변경 */
+#menu .main > li a:hover {
+    background: green;
+    color:#fff;
+}
+
+/* 서브메뉴 가리기 & 크기 및 위치 설정 */
+#menu .main .sub{
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+/* 서브메뉴 스타일 설정 */
+#menu .main .sub li {
+    background-color: pink;
+}
+
+/* 서브메뉴 마우스 올렸을 때 스타일 설정 */
+#menu .main .sub li a:hover {
+    background-color: red;
+}

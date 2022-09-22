@@ -1,0 +1,75 @@
+/* 전체박스에 대한 내외부 여백 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 레이아웃 */
+nav {
+    background-color: #C3F8FF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ABD9FF;
+    padding: 30px;
+}
+
+header>section {
+    display: flex;
+}
+
+.header_left{
+    width: 30%;
+    text-align: center;
+}
+.header_right{
+    width: 70%;
+}
+
+main {
+    background-color: #FFF6BF;
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+}
+
+main>section {
+    margin: 20px;
+    text-align: center;
+    width: 25%;
+}
+
+main > section > div {
+    font-size: 13px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #FFEBAD;
+    display: flex;
+    height: 200px;
+}
+
+footer>h2,ul {
+    margin: 10px;
+    width: 50%;
+}
+
+footer>ul {
+    list-style: none;
+}
+
+footer>ul>li {
+    margin: 8px;
+}

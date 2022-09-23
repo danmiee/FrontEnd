@@ -1,6 +1,6 @@
 <hr/>
 
-# HTML 문서작성
+## HTML 문서작성
 * 섹션 구분
 * 접근성 고려한 태그 활용 및 내용작성
 * 외부자료 연결
@@ -10,13 +10,13 @@
 
 <hr/>
 
-# CSS 작성
+## CSS 작성
 * 1개 파일에 많은 내용이 적혀있어 확인 및 수정 불편<br>
    ---> 파일 구분 필요
 
 <hr/>
 
-# Media Queries 작성
+## Media Queries 작성
 * @media only screen
     and (min-width:$px)
     and (max-width:$px) {}

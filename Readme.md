@@ -1,16 +1,16 @@
-<hr/>
+# FrontEnd
 
-# 220922
-* CSS 실습
-* github 사용법
+<hr>
 
-<hr/>
+## SelfStudy
+- 자기소개 페이지 html로 작성 및 css 적용
 
-# 220923
-* CSS 반응형 웹
-  + Media Queries
-* github-pages
-* HTML - <form></form>
-  + input 요소 확인
+## html_form
+- form 태그 활용 연습
 
-<hr/>
+## practice_in_shy
+- html, css 기본기 연습
+- 2단 메뉴 만들기
+
+## responsive_web
+- html, css, media queries를 활용한 반응형 웹 

@@ -1,6 +1,5 @@
 # FrontEnd
 
-<hr>
 
 ## SelfStudy
 - 자기소개 페이지 html로 작성 및 css 적용
